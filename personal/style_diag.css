@@ -1,0 +1,51 @@
+/* CSS Document */
+        
+            body{
+                background: #fff;
+                color: #333;
+            }
+            
+            a, a:visited, a:link, a:active{
+                color: #333;
+            }
+            
+            a:hover{
+                color: #00f;
+            }
+        
+            .charts_container{
+                overflow: auto;
+                width: 800px;
+                height: 420px;
+                margin: 10px auto;
+            }
+            
+            .chart_container_centered{
+                text-align: center;
+                width: 900px;
+                height: 420px;
+                margin: 10px auto;
+            }
+            
+            .chart_container{
+                width: 400px;
+                height: 400px;
+                margin: 0px 25px;
+                float: left;
+            }
+			
+		    .charts_container_last{
+                overflow: auto;
+                width: 900px;
+                height: 300px;
+                margin: 10px auto;
+				overflow: hidden;
+            }
+			
+			.chart_container_last{
+                width: 400px;
+                height: 250px;
+                margin: 0px 25px;
+                float: left;
+            }
+
